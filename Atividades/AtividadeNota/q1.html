@@ -14,21 +14,22 @@
 <body>
 
     <table>
+        <thead>
         <tr>
             <th>Nome</th>
             <th>Idade</th>
             <th>Endereço</th>
             <th>Imagem</th>
-            <th>Lista</th>
+            <th>Lista de Itens</th>
         </tr>
+        </thead>
 
+        <tbody>
         <tr>
             <td>João</td>
             <td>30</td>
             <td>Rua A, 123</td>
-            <td>
-                <a href="q2.html"> <img height="200" src="img/wolverine.png" alt="" ></a>
-                </td>
+            <td><a href="q2.html"> <img height="200" src="img/wolverine.png" alt="" ></a></td>
             <td>
                 <ul>
                     <li>Item 1</li>
@@ -42,38 +43,41 @@
             <td>Maria</td>
             <td>25</td>
             <td>Avenida B, 456</td>
-
-            <td> <a href="q2.html"> <img height="200" src="img/maravilha.png" alt=""> </a>
-                
-                
-            
-            </td>
-
+            <td> <a href="q2.html"> <img height="200" src="img/maravilha.png" alt=""> </a>            </td>
             <td>
-                <ul>
+                <ol>
                     <li>Item 1</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
-                </ul>
+                </ol>
             </td>
         </tr>
+    </tbody>
 
+    <tfoot>
         <tr>
             <td colspan="5">
                 <form action="">
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome"> <br><br>
-                    <label for="idade">Idade:</label>
-                    <input type="number" name="idade" id=" idade"> <br><br>
-                    <label for="endereco">Endereço:</label>
-                    <input type="text" name="endereco" id="endereco"><br><br>
-
-
-                    <input type="submit" name="Enviar">
+                    <div>
+                    <label for="idNome">Nome:</label>
+                    <input type="text" name="nome" id="idNome"> 
+                </div>
+                <br>
+                <div>
+                    <label for="idIdade">Idade:</label>
+                    <input type="number" name="idade" id="idIdade"> 
+                </div>
+                <br>
+                <div>    
+                    <label for="idEndereco">Endereço:</label>
+                    <input type="text" name="endereco" id="idEndereco">
+                </div>
+                <br>
+                    <button type="submit">Enviar</button>
                 </form>
             </td>
         </tr>
-
+    </tfoot>
     </table>
 
     
