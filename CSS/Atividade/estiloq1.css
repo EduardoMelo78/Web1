@@ -2,6 +2,7 @@ body{
     margin: 20px;
     display: flex;
 }
+
 .fora {
     border: 1px solid;
     height: 100vh;
@@ -50,7 +51,6 @@ body{
     width: 18px;
     height: 18px;
 }
-
 
 
 

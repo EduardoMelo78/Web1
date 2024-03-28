@@ -1,0 +1,48 @@
+body{
+    background-color: #348a02 ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*Alinhamento horizontal*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.lvl1 {
+    border-radius: 200px 50px 100px 50px;
+    background-color: lightgray;
+    width: 30%;
+    height:70%;
+    display: flex;
+    align-items: center; /*Alinha vertical */
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wolverine{
+   width: 40%;
+   height: 25%
+}
+
+#botao{
+    width: 40%;
+    height:60%;
+    background-color: #348a02 ;
+    border-radius: 5px;
+}
+
+.miolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#login{
+    border-radius: 5px;
+}
+#senha{
+    height:25%;
+    border-radius: 5px;
+}
