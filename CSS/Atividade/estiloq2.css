@@ -10,7 +10,7 @@ body{
 }
 
 .lvl1 {
-    border-radius: 200px 50px 100px 50px;
+    border-radius: 200px 50px 200px 50px;
     background-color: lightgray;
     width: 30%;
     height:70%;
@@ -26,6 +26,7 @@ body{
 }
 
 #botao{
+    border: 0px;
     width: 40%;
     height:60%;
     background-color: #348a02 ;
@@ -33,16 +34,15 @@ body{
 }
 
 .miolo{
+   
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-#login{
+input{
+    border: 0px;
     border-radius: 5px;
-}
-#senha{
-    height:25%;
-    border-radius: 5px;
+    height: 50%;
 }
