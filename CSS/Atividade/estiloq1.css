@@ -1,0 +1,56 @@
+body{
+    margin: 20px;
+    display: flex;
+}
+.fora {
+    border: 1px solid;
+    height: 100vh;
+     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secundaria {
+    margin: 0%;
+    border: 1px solid;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.terciaria-um {
+    border: 1px solid;
+    height: 80%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.terciaria-dois{
+    border: 1px solid;
+    height: 80%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+.lvl4{
+    background-color: green;
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
