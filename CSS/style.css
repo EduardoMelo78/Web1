@@ -1,0 +1,15 @@
+body{margin: opx; 
+    background-color: lightblue;
+    height: 100vh;} 
+
+#miolo{background-color: #09b409;
+height: 50%vh;
+width: 50%;
+padding: 20px;
+margin:auto;}
+
+.teste{height: 200px;
+       width:100vw ;
+        display: flex;
+    justify-content: center;
+align-items: center ;}
