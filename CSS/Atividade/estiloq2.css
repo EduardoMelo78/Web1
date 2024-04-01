@@ -29,10 +29,10 @@ body{
 
 #botao{
     border: 0px;
-    width: 42%;
+    width: 43%;
     background-color: #348a02 ;
     border-radius: 5px;
-    padding: 8px;
+    padding: 12px;
 }
 
 #botao:hover{
@@ -50,7 +50,7 @@ body{
 
 input{
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     width: 40%;
-    padding: 5px;
+    padding: 8px;
 }
