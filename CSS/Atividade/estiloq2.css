@@ -4,33 +4,38 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center; /*Alinhamento horizontal*/
+    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 .lvl1 {
-    border-radius: 200px 50px 200px 50px;
+    border-radius: 175px 50px 175px 50px;
     background-color: lightgray;
     width: 30%;
     height:70%;
     display: flex;
-    align-items: center; /*Alinha vertical */
+   
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
 }
 
 #wolverine{
-   width: 40%;
-   height: 25%
+   width: 29%;
+   height: 18%
 }
 
 #botao{
     border: 0px;
-    width: 40%;
-    height:60%;
+    width: 42%;
     background-color: #348a02 ;
     border-radius: 5px;
+    padding: 8px;
+}
+
+#botao:hover{
+    background-color: darkgreen;
+    color: white;
 }
 
 .miolo{
@@ -42,7 +47,8 @@ body{
 }
 
 input{
-    border: 0px;
+    border: none;
     border-radius: 5px;
-    height: 50%;
+    width: 40%;
+    padding: 5px;
 }
