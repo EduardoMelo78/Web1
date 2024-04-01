@@ -18,6 +18,8 @@ body{
    
     flex-direction: column;
     justify-content: top;
+
+    box-shadow: -5px 10px 20px -10px rgba(0,0,0,1);
 }
 
 #wolverine{
