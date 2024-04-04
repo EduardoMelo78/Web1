@@ -1,7 +1,10 @@
+*{margin: 0px;}
+
 body{
     background-color: #348a02 ;
-    width: 100vw;
     height: 100vh;
+    /*widht: 100vw*/
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,47 +13,56 @@ body{
 }
 
 .lvl1 {
-    border-radius: 175px 50px 175px 50px;
-    background-color: lightgray;
     width: 30%;
-    height:70%;
+    height:60%;
+    background-color: #ecebeb;
+    border-radius: 100px 25px;
+
     display: flex;
-   
     flex-direction: column;
     justify-content: top;
 
-    box-shadow: -5px 10px 20px -10px rgba(0,0,0,1);
+    box-shadow: -5px 10px 20px -10px rgba(0,0,0,.75);
 }
 
 #wolverine{
-   width: 29%;
-   height: 18%
+    /*pode usar "em"no lugar de px*/
+   height: 35%;
+   margin-bottom: 3vh;
 }
-
-#botao{
-    border: 0px;
-    width: 43%;
-    background-color: #348a02 ;
-    border-radius: 5px;
-    padding: 12px;
-}
-
-#botao:hover{
-    background-color: darkgreen;
-    color: white;
-}
-
-.miolo{
-   
+form {
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: start;
+    flex-direction: column;
+    }
+
+label{
+    font-size: small;
+    margin-bottom: 1.5vh;
 }
 
 input{
-    border: none;
+    height: 4vh;
     border-radius: 7px;
-    width: 40%;
-    padding: 8px;
+    border: 1px solid lightgray;
+    margin-bottom: 2vh;
+    width: 50%;
+}
+
+
+button{
+    margin-top: 2vh;
+    background-color: #348a02 ;
+    color: white;
+    height: 30px;
+    width: 50%;
+    border: 0px;
+    font-size: .7em;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: darkgreen;
 }
