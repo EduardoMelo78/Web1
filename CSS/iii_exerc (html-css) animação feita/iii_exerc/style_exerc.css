@@ -1,0 +1,176 @@
+/*
+#02520f
+#666
+#fff
+#000
+#999
+
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header{
+    height: 15vh;
+    font-size: xx-large;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: inset 0px -4px 3px 0px rgba(8,8,8,0.2);
+   
+}
+
+.animation{ animation: maior_campeao; /*contruir animação*/
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+}
+
+thead{
+    height: 5%;
+    background-color:#02520f ;
+    color: #fff;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+table{
+    margin-top: 5px;
+    border-collapse: collapse;
+    width: 80vw;
+    height: 75vh;}
+
+.primeiro{
+    font-weight: bold;
+}
+
+.coluna1{
+    background-color: #666;
+    width: 17%;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.coluna2{
+    height: 100%;
+    font-size: x-large;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5%;
+    padding-left: 5%;
+}
+
+.coluna3{
+    font-size: x-large;
+    width:15%;
+}
+
+
+img{
+    height: 40px;
+}
+
+
+footer{
+    margin: 5px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    background-color: #666;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.circle:hover{
+    background-color: #02520f;
+}
+
+tr:hover{
+    background-color: #aaa;    
+}
+
+
+@keyframes maior_campeao {
+    0%{
+        transform:  translateY(70%);
+        color: transparent;
+    }
+    100%{   
+        transform: translateY(0%);
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 10vh;
+        font-size: x-large;
+    }
+
+    table{
+        width: 90vw;
+    }
+
+    thead{
+        font-size: medium;
+    }
+
+    img{
+        height: 30px
+    }
+
+    .coluna2{
+        font-size: large;
+    }
+
+    .coluna1,coluna2, .coluna3{
+        font-size: large;
+    }
+
+    .circle{
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .rodape{
+        font-size: small;
+    }
+    footer{
+        width: 90%;
+    }
+}
+
+
