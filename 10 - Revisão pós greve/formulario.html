@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Formulario de Cadastro</h3>
+    <form action="teste.html">
+        <label for="nome">Nome: </label>
+       <input type="text" name="box1" id="nome" required placeholder="Nome completo"> <br>
+
+       <label for="idade">Idade: </label>
+       <input type="number" name="idade"><br>
+
+       <label for="email">Email: </label>
+       <input type="email" name="email" id="email" required> <br>
+
+       <label for="">Nascimento: </label>
+       <input type="date" name="nasc" id="nasc" value="01-01-2006"> <br>
+
+       <label>Sexo: </label> <br> <!--Name nas opções devem ser iguais, além de possuir um value em cada opção-->
+       <input type="radio" name="sexo" id="masc" value="m">
+       <label for="masc">Masculino</label><br>
+       <input type="radio" name="sexo" id="fem" value="f">
+       <label for="fem">Feminino</label><br>
+
+        <label for="">Interesse: </label> <br>
+        <input type="checkbox" name="esporte" id="esporte">
+        <label for="esporte">Esporte</label> <br>
+        <input type="checkbox" name="filme" id="filme">
+        <label for="filme">Filme</label> <br>
+
+        <label for="uf">UF: </label>
+        <select name="uf" id="">
+            <option value="BA">Bahia</option>
+            <option value="AL">Alagoas</option>
+            <option value="PE">Pernambuco</option>
+            <option value="SE">Sergipe</option>
+        </select> <br><br>
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea name="mensagem" maxlength="300" id="mensagem" cols="30" rows="5"></textarea> <br>
+
+       
+       <br><button type="submit">Enviar</button> 
+    </form>
+
+
+</body>
+
+</html>

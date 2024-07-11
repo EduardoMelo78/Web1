@@ -1,0 +1,25 @@
+/*Seletores e Regras (Propriedades)*/
+
+/*
+tagname > body, h3, img, table 
+class: .nome_classe{regra dentro das chaves} 
+id: #nome_id {Regra dentro das chaves}
+ */
+
+body{
+    background-color: lightblue;
+}
+
+h3{
+    color: red;
+}
+
+.estilo1{
+    color: blueviolet;
+}
+
+
+#unico{
+    color: yellowgreen
+}
+
