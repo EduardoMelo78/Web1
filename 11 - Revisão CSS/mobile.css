@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+
+    body{
+        margin: 0px;
+    }
+
+    *{
+        font-size: 1.05em;
+    }
+    .miolo{
+        height: 90vh;
+        width: 95vw;
+    }
+
+    .miolo > img{
+        height: 150px;
+    }
+
+    form{
+        height: 60vh;
+        width: 80vw;
+    }
+
+    h2{
+        visibility: hidden ;
+    }
+
+
+}
