@@ -1,0 +1,51 @@
+:root{
+    --azul-claro: #D6EAF8;
+    --cinza: #343A40;
+    --azul: #0583F2;
+    --cinza-escuro: #222;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#miolo{
+}
+
+.central{
+    height: 50vh;
+    width: 50%;
+    gap: 2vw;
+}
+
+.logo{
+    width: 30%;
+    gap: 2vh;
+}
+
+.logo > img{
+   width: 120px; 
+}
+
+.logo > span{
+    font-size: small;
+}
+
+.formLogin{
+    width: 40%;
+}
+
+label{
+    font-size: medium;
+}
+
+.formLogin input{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button{
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+}
