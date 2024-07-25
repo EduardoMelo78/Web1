@@ -9,43 +9,105 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#miolo{
+
+body{
+    margin: 0%;
+    background-color:  #D6EAF8;
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
+
+
 .central{
+
+    background-color: #222;
     height: 50vh;
     width: 50%;
     gap: 2vw;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .logo{
     width: 30%;
     gap: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .logo > img{
-   width: 120px; 
+   width: 150px; 
+   border-radius: 50%;
 }
 
 .logo > span{
-    font-size: small;
+    font-size:smaller;
+    color: white;
 }
 
+
 .formLogin{
-    width: 40%;
+    width: 50%;
+    height: 100%;
+    gap: 2vh;
+
+    display:flex;
+    align-items: center;
+    justify-content: left;
 }
+
+form{
+    gap: 3vh;
+
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
 
 label{
     font-size: medium;
+    color: white;
 }
 
 .formLogin input{
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
+
+    width: 85%;
+    height: 18px;
+    border-radius: 10px;
 }
 
 button{
-    padding: 5px;
-    font-size: large;
+    font-size: x-large;
     font-weight: 500;
+    width: 90%;
+    height: 35px;
+
+    background-color: #0583F2 ;
+    color: white;
+
+    border-radius: 10px;
+
+
 }

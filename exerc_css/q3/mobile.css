@@ -1,3 +1,41 @@
 @media only screen and (max-width: 800px) {
     
+    
+    body{
+        background-color:#222 ;
+    }
+    
+    .central{
+        background-color: #555;
+        height: 80%;
+        width: 90%;
+        flex-direction: column;
+       
+
+    }
+    
+    .logo{
+        gap: 3vh;
+    }
+    
+    .logo > span{
+        font-size:smaller;
+        color: white;
+    }
+
+    .formLogin{ 
+        height: 50%;
+        justify-content: center;
+    }
+    
+    .formLogin input{
+        padding: 8px;
+        width: 94%;
+    }
+    
+    button{
+        width: 100%;
+        height: 35px;    
+    }
+    
 }
