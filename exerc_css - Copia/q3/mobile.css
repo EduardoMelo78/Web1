@@ -1,41 +1,24 @@
 @media only screen and (max-width: 800px) {
-    
-    
-    body{
-        background-color:#222 ;
+
+    #miolo{
+        background-color: var(--cinza-escuro);
     }
-    
+
     .central{
-        background-color: #555;
-        height: 80%;
-        width: 90%;
+
         flex-direction: column;
-       
-
+        height: 80vh;
+        width: 90%;
+        gap: 10vh;
+        justify-content: space-evenly;
     }
-    
+
     .logo{
-        gap: 3vh;
-    }
-    
-    .logo > span{
-        font-size:smaller;
-        color: white;
+
+        transform: scale(1.5);
     }
 
-    .formLogin{ 
-        height: 50%;
-        justify-content: center;
-    }
     
-    .formLogin input{
-        padding: 8px;
-        width: 94%;
-    }
     
-    button{
-        width: 100%;
-        height: 35px;    
-    }
     
 }

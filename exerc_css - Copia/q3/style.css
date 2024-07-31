@@ -7,36 +7,38 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-
-body{
-    margin: 0%;
-    background-color:  #D6EAF8;
-    width: 100vw;
+#miolo{
+    background-color: var(--azul-claro);
     height: 100vh;
 
-
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+
+}
+
+body{
 }
 
 
 
 .central{
 
-    background-color: #222;
-    height: 50vh;
+    background-color: var(--cinza);
+    height : 50vh;
     width: 50%;
     gap: 2vw;
-    border-radius: 25px;
+    color: white;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+
+    border-radius: 25px;
 }
 
 .logo{
@@ -61,13 +63,13 @@ body{
 
 
 .formLogin{
-    width: 50%;
-    height: 100%;
-    gap: 2vh;
+    width: 40%;
 
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: left;
+
+    gap: 20px;
 }
 
 form{
@@ -92,22 +94,22 @@ label{
 .formLogin input{
     padding: 10px;
     margin-top: 10px;
-
-    width: 85%;
-    height: 18px;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: none;
 }
 
 button{
-    font-size: x-large;
+    padding: 5px;
+    font-size: large;
     font-weight: 500;
-    width: 90%;
-    height: 35px;
-
     background-color: #0583F2 ;
     color: white;
+    border-radius: 8px;
+    border: none;
 
-    border-radius: 10px;
+}
 
-
+.formGrouo{
+    display:flex ;
+    flex-direction: column;
 }
