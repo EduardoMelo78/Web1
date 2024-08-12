@@ -13,8 +13,8 @@ body{
 }
 
 header{
+  
     height: 20vh;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +63,7 @@ form{
 }
 
 button{
-    background-color: blueviolet;
+   
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -102,7 +102,8 @@ main{
 
 .conteudo{
     width: 100%;
-    background-color: blue;
+    background-color:#042b5c;
+    color: #fff;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -116,7 +117,7 @@ main{
 
 .conteudos{
     width: 100%;
-    background-color: aqua;
+    background-color: #e4b49c;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -127,7 +128,7 @@ main{
 }
 
 .single{
-
+    color: #042b5c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,6 +157,7 @@ footer{
     align-items: center;
 
     padding: 5px;
+    box-shadow: inset 37px 48px 47px -61px rgba(0,0,0,1);
 }
 
 
