@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+header{
+    background-color: darkmagenta;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+header>img{
+
+    height: 150px;  
+}
+
+.header-tema{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sem-conta{
+    font-size:  large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+    height: 50%;
+
+}
+
+.header-form{
+    width: 100%;
+    height: 50%;
+}
+
+.header-button{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2.5px #999;
+}
+
+.header-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666; 
+    transform: translateY(4px); 
+}
+
+
+main{
+    background-color: coral;
+    height: 73vh;
+
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.login{
+    background-color: #e4b49c;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    .form{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        background-color: #4CAF50;
+    }
+    .form form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        gap: 22px;}
+    
+    .usuario{
+        height: 20%;
+        width: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;}
+        
+    .usuario input{
+        height: 30px;
+        border-radius: 10px;
+        width: 60%;
+        background-color: #eee;
+        padding-left: 10px;
+        ;
+    }
+    .usuario button{
+        height: 40px;
+        border-radius: 12px;
+        width: 60% ;}
+    .usuario button:hover{
+        scale: 1.1;}
+
+
+
+
+footer{
+    background-color: orchid;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: x-large;
+}
+
+footer>img{
+    height: 90px;
+}
+
+.footer-3{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+}
