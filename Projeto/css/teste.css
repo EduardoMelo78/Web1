@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="tela_inicial.css">
     <link rel="stylesheet" href="css/filmes.css">
 </head>
 
@@ -26,9 +27,9 @@
 
             <a href="telaLogin2.html" class="link">
                 <div>
-                    <a href="tela_inicial.html" class="classes">Inicio</a>
+                    <a href="tela_inicial.html" class="classes" >Inicio</a>
                     <span>|</span>
-                    <a href="tela_canais.html" class="classes">Canais</a>
+                    <a href="tela_canais.html" class="classes" >Canais</a>
                     <span>|</span>
                     <a href="tela_filmes.html" class="classes" id="ativo">Filmes</a>
                     <span>|</span>
@@ -49,8 +50,9 @@
     <main>
         <div class="conteudo">
             <h1>Lançamentos 2024</h1>
-            <div class="conteudos">
+            <div class="container">
                 <div class="centro" id="carrossel">
+
                     <div class="cont_nome">
                         <img src="img/filmes/2024/a_missao_de_sandy_bochechas.png" alt="" class="imagem" >
                         <span class="titulo">A missão de Sandy Bochechas </span>
@@ -58,6 +60,7 @@
                     <div class="cont_nome">
                         <img src="img/filmes/2024/furiosa_a_mad_max_saga_black_e_chrome_edition.png" alt="" class="imagem" >
                         <span class="titulo">Furiosa: Uma saga mad max edição black e chrome</span>
+                        
                     </div>
                     <div class="cont_nome">
                         <img src="img/filmes/2024/maharaja.png" alt="" class="imagem" >
@@ -76,7 +79,7 @@
                         <span class="titulo">Planeta dos Macacos: O Reinado</span>
                     </div >
                     <div class="cont_nome">
-                        <img src="img/filmes/2024/pra_la_de_bagda_2.png" alt="" class="imagem">
+                        <img src="img/filmes/2024/pra_la_de_bagda_2.png" alt="" class="imagem" >
                         <span class="titulo">Pra La de Bagda 2</span>
                     </div>
                     <div class="cont_nome">
@@ -91,8 +94,10 @@
                         <img src="img/filmes/2024/entrevista_com_o_demonio.png" alt="" class="imagem" >
                         <span class="titulo">Entevista com o Demônio</span>
                     </div>
-                </div>
+                        
 
+                </div>
+                
                 <button class="button" onclick="scrollLeft()">←</button>
                 <button class="button" onclick="scrollRight()">→</button>
     
@@ -102,65 +107,41 @@
         <div class="conteudo">
             <h1>Filmes em Destaque</h1>
             <div class="conteudos">
-                <div class="cont_nome">
-                    <img src="img/filmes/filme_deadpool&wolverine.png" alt="">
-                    <span class="titulo">Deadpoll e Wolverine</span>
+                <div class="single"><img src="img/filmes/filme_deadpool&wolverine.png" alt="">
+                    <div>Deadpoll e Wolverine</div>
                 </div>
 
-                <div class="cont_nome">
-                    <img src="img/filmes/filme_divertidamente.png" alt="">
-                    <span class="titulo">Divertidamente 2</span>
+                <div class="single"><img src="img/filmes/filme_divertidamente.png" alt="">
+                    <div>Divertidamente 2</div>
                 </div>
 
-                <div class="cont_nome">
-                    <img src="img/filmes/filme_meuMalvadoFavorito4.png" alt="">
-                    <span class="titulo">Meu Malvado Favorito 4</span>
+                <div class="single"><img src="img/filmes/filme_meuMalvadoFavorito4.png" alt="">
+                    <div>Meu Malvado Favorito 4</div>
                 </div>
 
-                <div class="cont_nome">
-                    <img src="img/filmes/filme_garfieldForadecasa.png" alt="">
-                    <span class="titulo">Garfield Fora de Casa</span>
+                <div class="single"><img src="img/filmes/filme_garfieldForadecasa.png" alt="">
+                    <div>Garfield Fora de Casa</div>
                 </div>
             </div>
         </div>
 
         <div class="conteudo">
-            <h1>Filmes Qualidade Cinema</h1>
+            <h1>Séries em Destaque</h1>
             <div class="conteudos">
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/contra_o_mundo.png" alt="">
-                    <span class="titulo">Contra o mundo</span>
+                <div class="single"><img src="img/series/serie_houseofthedragon.png" alt="">
+                    <div>House of the Dragon</div>
                 </div>
 
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/la_bete.png" alt="">
-                    <span class="titulo">A besta</span>
+                <div class="single"><img src="img/series/serie_gameofthrones.png" alt="">
+                    <div>Game of Thrones</div>
                 </div>
 
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/divertidamente_2.png" alt="">
-                    <span class="titulo">Divertidamente 2 </span>
+                <div class="single"><img src="img/series/serie_lacasadepapel.png" alt="">
+                    <div>La Casa de Papel </div>
                 </div>
 
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/o_cara_da_piscina_poolman.png" alt="">
-                    <span class="titulo">O cara da piscina Poolman</span>
-                </div>
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/o_exorcismo.png" alt="">
-                    <span class="titulo">O exorcismo</span>
-                </div>
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/o_ultimo_sentinela.png" alt="">
-                    <span class="titulo">O último sentinela</span>
-                </div>
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/os_cinco_demonios.png" alt="">
-                    <span class="titulo">O cara da piscina Poolman</span>
-                </div>
-                <div class="cont_nome">
-                    <img src="img/filmes/cinema/tarefa_confidencial_2_internacional.png" alt="">
-                    <span class="titulo">Tarefa confidencial 2 Internacional</span>
+                <div class="single"><img src="img/series/serie_percyJackson.png" alt="">
+                    <div>Percy Jackson</div>
                 </div>
             </div>
         </div>
