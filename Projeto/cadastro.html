@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_cadastro.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="">
+        <div class="header-tema">
+            <h1>POPCORN ENTRETENIMENTOS</h1>
+            <h2>Venha Para o Melhor do Conteúdo Online</h2>
+        </div>
+        <div class="sem-conta">
+            <div>Possui conta?</div>
+            <form class="header-form" action="login.html">
+                <button class="header-button" type="submit">Login</button>
+            </form>
+    </header>
+
+
+    <main class="centro">
+        <div class="cadastro">
+            <div class="top_cadastro">
+                <p>Cadastre-se grátis para acompanhar os melhores </p>
+                <p>para acompanhar os melhores filmes, séries e programas popcorn</p>
+            </div>
+
+            <form action="tela_inicial.html">
+                <div class="inputs">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="inputs">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Ex:...@gmail.com">
+                </div>
+                <div class="inputs">
+                    <label for="usuario">Nome de usuário</label>
+                    <input type="text" name="usuario" id="usuario">
+                </div>
+                <div class="inputs">
+                    <label for="nova_senha">Criar senha:</label>
+                    <input type="password" name="nova_senha" id="nova_senha">
+
+                </div>
+                <div class="inputs">
+                    <label for="data_nascimento">Data de Nascimento:</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento">
+                </div>
+                <div class="inputs">
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="null">Não dizer</option>
+                    </select>
+                </div>
+
+                <div class="inputs ">
+                    <label for="categoria">Categoria(s) preferida:</label>
+                    <div class="checkbox">
+                        <input type="checkbox" id="canais" name="canais" value="canais">
+                        <label for="canais">Canais</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="filmes" name="filmes" value="filmes">
+                        <label for="filmes">Filmes</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="series" name="series" value="series">
+                        <label for="series">Series</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="todos" name="todos" value="todos">
+                        <label for="todos">Todos</label>
+                    </div>
+                </div>
+
+                <div class="inputs">
+                    <button type="submit">Aproveitar!</button>
+                </div>
+
+
+            </form>
+        </div>
+    </main>
+
+
+
+    <footer>
+
+        <img src="img/logo.png" alt="">
+        <div>PopCorn Entretenimentos</div>
+        <div class="footer-3">
+            <div>Saiba Mais</div>
+            <div>Contato: (82) 98135-0920</div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

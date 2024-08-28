@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="tela_inicial.css">
+    <link rel="stylesheet" href="css/filmes.css">
 </head>
 
 <body>
@@ -26,13 +27,13 @@
 
             <a href="telaLogin2.html" class="link">
                 <div>
-                    <a href="tela_inicial.html" class="classes" id="ativo">Inicio</a>
+                    <a href="tela_inicial.html" class="classes" >Inicio</a>
                     <span>|</span>
-                    <a href="tela_canais.html" class="classes">Canais</a>
+                    <a href="tela_canais.html" class="classes" >Canais</a>
                     <span>|</span>
-                    <span class="classes">Filmes</span>
+                    <a href="tela_filmes.html" class="classes" id="ativo">Filmes</a>
                     <span>|</span>
-                    <span class="classes">Series</span>
+                    <a href="tela_series.html" class="classes">Series</a>
                 </div>
             </a>
         </div>
@@ -48,20 +49,58 @@
 
     <main>
         <div class="conteudo">
-            <h1>Canais em Destaque</h1>
-            <div class="conteudos">
-                <div class="single"> <img src="img/canais/canal_globo.png" alt="">
-                    <div>GLOBO</div>
+            <h1>Jogos do Dia</h1>
+            <div class="container">
+                <div class="centro" id="carrossel">
+                    
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/entrevista_com_o_demonio.png" alt="" class="imagem" >
+                        <div>Entevista com o Demônio</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/a_missao_de_sandy_bochechas.png" alt="" class="imagem" >
+                        <div>A missão de </div>
+                        <div>Sandy Bochechas</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/furiosa_a_mad_max_saga_black_e_chrome_edition.png" alt="" class="imagem" >
+                        <span>Furiosa: Uma saga mad </span>
+                        <span>max edição black e chrome</span>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/maharaja.png" alt="" class="imagem" >
+                        <div>Maharaja</div>
+                    </div>
+                    <div class="cont_nome">    
+                        <img src="img/filmes/2024/meu_malvado_favorito_4.png" alt="" class="imagem" >
+                        <div>Meu malvado favorito 4</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/os_novatos.png" alt="" class="imagem" >
+                        <div>Os novatos</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/planeta_dos_macacos_o_reinado.png" alt="" class="imagem" >
+                        <div>Planeta dos Macacos: O Reinado</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/pra_la_de_bagda_2.png" alt="" class="imagem" >
+                        <div>Pra La de Bagda 2</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/twisters.png" alt="" class="imagem" >
+                        <div>Twisters</div>
+                    </div>
+                    <div class="cont_nome">
+                        <img src="img/filmes/2024/um_tira_da_pesada_4_axel_foley.png" alt="" class="imagem" >
+                        <div>Um tira da pesada 4: Axel Foley</div>
+                     </div>
+                        
+
                 </div>
-                <div class="single"><img src="img/canais/canal_premiere.png" alt="">
-                    <div>PREMIERE</div>
-                </div>
-                <div class="single"><img src="img/canais/canal_telecine.png" alt="">
-                    <div>TELECINE</div>
-                </div>
-                <div class="single"><img src="img/canais/canal_playboy.png" alt="">
-                    <div>PLAY BOY TV</div>
-                </div>
+                <button class="button" onclick="scrollLeft()">←</button>
+                <button class="button" onclick="scrollRight()">→</button>
+    
             </div>
         </div>
 
@@ -124,6 +163,7 @@
 
     </footer>
 
+    <script src="javaScript/jogos.js"></script>
 </body>
 
 </html>
