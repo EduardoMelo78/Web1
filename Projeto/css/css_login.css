@@ -80,6 +80,20 @@ main{
 
 }
 
+.classes{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    cursor: pointer;
+    }
+    
+    .classes:hover{
+    
+       text-decoration: underline;
+       font-size: 25px;
+       font-weight: bold;
+    }
+
 .top-main{
     padding: 20px;
     padding-bottom: 40px;

@@ -104,8 +104,6 @@ cursor: pointer;
    font-weight: bold;
 }
 
-
-
 main{
 
     display: flex;
@@ -121,11 +119,8 @@ main{
     align-items: center;
     flex-direction: column;
 }
-
 .conteudo h1{
-
     padding: 12px;
-
 }
 
 .conteudos{
@@ -133,32 +128,89 @@ main{
     background-color: #e4b49c;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    flex-wrap: wrap;
-
-    padding: 5px;
-    
-}
-
-.single{
-    color: #042b5c;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 5px;
+    justify-content:space-around;
+    padding: 5px;
+
+    white-space: nowrap;
+    overflow-y: auto;
 }
 
-.single img:hover{
+.cont_nome img:hover{
     opacity: 0.8;
     scale: 1.1;
 
 }
 
-main>hr{
-    width: 100%;
-    border: 2px solid;
+img{
+    height: 230px;
+    object-fit: cover;
 }
+
+.imagem{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    
+    border-radius: 5px;
+    object-fit: cover;
+}
+.imagem:hover{
+    opacity: 0.8;
+    scale: 1.1;
+
+}
+
+.centro{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont_nome{
+    color: #042b5c;
+    font-size: small;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+    height:270px;
+}
+
+
+.titulo {
+    text-align: center;
+    white-space: pre-wrap; 
+    padding: 5px;
+    flex: 1;
+
+    
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
 
 
 footer{
@@ -172,10 +224,6 @@ footer{
     padding: 5px;
     box-shadow: inset 37px 48px 47px -61px rgba(0,0,0,1);
 }
-
-
-
-
 
 .logo_footer > img{
     height: 65px;
@@ -192,3 +240,4 @@ align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
+
