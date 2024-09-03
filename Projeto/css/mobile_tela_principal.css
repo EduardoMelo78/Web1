@@ -1,6 +1,18 @@
 @media screen and (max-width:800px){
 
 
+.classes{
+    font-size: medium;
+}
+
+.conteudos{
+    flex-wrap: wrap;
+
+}
+
+#pesquisa{
+    font-size: x-small;
+}
 .marca{
     scale: 0.8;
 }
@@ -9,6 +21,16 @@
     scale: 0.8;
 }
 
+footer>img{
+    height: 60px;
+}
 
+.footer-3{
+    font-size: x-small;
+}
+
+.marca{
+    font-size: large;
+}
     
 }

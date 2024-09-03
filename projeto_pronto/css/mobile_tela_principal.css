@@ -1,0 +1,56 @@
+@media screen and (max-width:800px){
+
+.logo_header{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.sair{
+    width: 20%;
+    padding-right: 20px;
+}
+
+.opcoes{
+    font-size: small;
+}
+
+.botao-opcoes{
+    width: 90%;
+    height: 30px;
+    font-size: medium;
+}
+
+.classes{
+    font-size: medium;
+}
+
+.conteudos{
+    flex-wrap: wrap;
+}
+
+#pesquisa{
+    font-size: small;
+}
+.marca{
+    scale: 0.8;
+}
+
+.creditos{
+    scale: 0.8;
+}
+
+footer>img{
+    height: 60px;
+}
+
+.footer-3{
+    font-size: x-small;
+}
+
+.marca{
+    font-size: large;
+}
+    
+}

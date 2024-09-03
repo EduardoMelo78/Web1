@@ -1,0 +1,77 @@
+@media screen and (max-width:800px){
+    
+ 
+    header{
+        height: 15vh;
+        width: 100vw;
+
+        
+    }
+    
+    header>img{
+
+        height: 90px;  
+    }
+    
+    .header-tema{
+        font-size: small;
+    }
+    
+    .header-tema h2{
+        font-size: medium;
+    }
+
+    .header-tema h1{
+        font-size: large ;
+    }
+    
+    .sem-conta{
+        font-size:  small;
+        height: 100%;
+        width: 20%;
+
+    
+    }
+    
+    .header-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-button{
+        width: 80%;
+        height: 80%;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    
+    .classes{
+    
+        font-size: large;
+        }
+        
+    .classes:hover{
+        font-size: 20px;
+        }
+    
+
+
+    .login{
+        width: 75%;
+        height: 75%;}    
+    
+    
+    
+    
+    
+    
+    footer>img{
+        height: 60px;
+    }
+    
+    .footer-3{
+        font-size: small;
+    }
+
+}

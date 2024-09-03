@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css_login.css">
+    <link rel="stylesheet" href="css/mobileLogin.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="">
+        <div class="header-tema">
+            <h1>POPCORN ENTRETENIMENTOS</h1>
+            <h2>Venha Para o Melhor do Conteúdo Online</h2>
+        </div>
+        <div class="sem-conta">
+            <div>Sem conta?</div>
+            <form class="header-form" action="cadastro.html">
+                <button class="header-button" type="submit">CADASTRAR-SE</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="top-main">
+            <div>
+                <a href="tela_inicial.html" class="classes">Inicio</a>
+                <span>|</span>
+                <a href="tela_canais.html" class="classes">Canais</a>
+                <span>|</span>
+                <a href="tela_filmes.html" class="classes">Filmes</a>
+                <span>|</span>
+                <a href="tela_series.html" class="classes">Séries</a>
+            </div>
+        </div>
+
+        <div class="login">
+            <div class="form">
+                <form onsubmit="logar(event)">
+                    <div class="usuario">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Digite seu nome de usuario">
+                    </div>
+                    <div class="usuario">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    <div class="usuario">
+                        <button type="submit">LOGIN</button>
+                    </div>
+                </form>
+               
+                <div id="error-message">Usuário ou senha incorretos! Tente novamente.</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="img/logo.png" alt="">
+        <div>PopCorn Entretenimentos</div>
+        <div class="footer-3">
+            <div>Saiba Mais</div>
+            <div>Contato: (82) 98135-0920</div>
+        </div>
+    </footer>
+
+    <script src="javaScript/login.js"></script>
+</body>
+
+</html>
